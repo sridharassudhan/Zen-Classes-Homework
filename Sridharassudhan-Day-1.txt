@@ -1,0 +1,34 @@
+@5 differences between node js and javascript
+1.Javascript is a programming language 
+that is used for writing scripts on the website.	NodeJS is a Javascript runtime environment.
+
+2.Javascript can only be run in the browsers.	        NodeJS code can be run outside the browser.
+
+3.It is basically used on the client-side.	        It is mostly used on the server-side.
+
+4.Javascript is used in frontend development.	        Nodejs is used in server-side development.
+
+5.Javascript can run in any browser engine as           Nodejs can only run in V8 engine of google 
+ like JS core in safari and Spidermonkey in Firefox.    chrome.
+
+@HTTP1.1 vs 2
+Multiplexing: 
+*HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all 
+the other resources behind it. 
+*HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no 
+one resource blocks any other resource.
+
+@Scripting language vs programming language
+*Basically, all scripting languages are programming languages.scripting languages do not require 
+the compilation step and are rather interpreted.
+*Generally, compiled programs run faster than interpreted programs because they are first converted
+to native machine code.
+*Another point to be noted is that while classifying a language as scripting language or 
+programming language, the environment on which it would execute must be taken into consideration.
+
+@Dynamic vs Static Typing
+*In Dynamic Typing, type checking is performed at runtime.
+ It means that the type of a variable is allowed to change over its lifetime
+
+*In Static Typing, type checking is performed during compile time.
+ It means that the type of a variable is known at compile time.
