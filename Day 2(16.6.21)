@@ -1,0 +1,111 @@
+RESUME
+<html>
+<head>
+  <hr><h1>Resume</h1>
+  <h2>Sridharassudhan</h2>
+  <hr />
+</head>
+<body>
+  <br>
+  <p class="head">Interests</p>
+  <ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Computer Science</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <a href="https://st-patricksschool.com/">
+      <li>Wilton High School</li>
+    </a>
+    <!--Link-->
+    <a href="https://www.sonatech.ac.in/">
+      <li>sona college 0f tgechnology</li>
+    </a>
+    <li>Codeacademy</li>
+  </ul>
+  <p class="head">Experience</p>
+  <ul>
+    <li>Student of japanese language in human resosia</li>
+    
+  </ul>
+  <p class="head">Extracurriculars</p>
+  <ul>
+    <li>Recycling Club</li>
+    <li>Gardening Club</li>
+    <li>Book Club</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Sridharassudhan</h2></div>
+</body>
+</html>
+
+IS IT NECESSARY TO USE HEAD,BODY TAGS
+Omitting the html, head, and body tags is certainly allowed 
+by the HTML specs. The underlying reason is that browsers 
+have always sought to be consistent with existing web pages, 
+and the very early versions of HTML didn't define those 
+elements. 
+HEAD
+The HTML <head> element represents a collection of metadata 
+about the document, including links to or definitions of 
+scripts and style sheets.
+
+This means that everything that goes in the <head> tag is not
+seen by the user (basically),but is used to include relevant 
+information and dynamic content that is processed by the 
+browser.
+BODY
+The HTML <body> element represents the content of an HTML 
+document. There is only one <body> element in a document.
+
+This means that everything that the user sees on the page 
+goes in the <body> tag (basically), and that there is only 
+one.
+
+You could omit the head and body tags in your page because 
+this is certainly allowed by the HTML specs.
+
+<div>
+The <div> tag defines a division or a section in an HTML 
+document. The <div> tag is used as a container for HTML 
+elements - which is then styled with CSS or manipulated with 
+JavaScript. The <div> tag is easily styled by using the class 
+or id attribute. Any sort of content can be put inside the 
+<div> tag.
+
+<article>
+The <article> tag specifies independent, self-contained 
+content.
+An article should make sense on its own and it should be 
+possible to distribute it independently from the rest of the 
+site.
+Potential sources for the <article> element:
+-Forum post
+-Blog post
+-News story
+
+<section>
+Section tag defines the section of documents such as chapters, 
+headers, footers or any other sections. The section tag divides 
+the content into section and subsections. The section tag is 
+used when requirements of two headers or footers or any other 
+section of documents needed.
+
+        typeof(1)-number
+        typeof(1.1)-number
+        typeof('1.1')-string
+        typeof(true)-boolen
+        typeof(null)-object
+        typeof(undefined)-string
+        typeof([])-array
+        typeof({})-object
+        typeof(NaN)-string
