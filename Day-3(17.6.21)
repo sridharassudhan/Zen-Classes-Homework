@@ -1,0 +1,79 @@
+DAY-3
+For loop
+for(var i=0;i<obj.length;i++)
+{
+console.log(obj[i]);
+}
+
+For in
+for(i in obj)
+{
+console.log(obj[i]);
+}
+
+For each
+obj.forEach(myFunction);
+
+function myFunction(value) {
+  console.log(value);
+}
+
+For of
+for (let i of obj)
+{
+console.log(i + obj[i]);
+}
+
+Country and Flags
+  var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          for(let i in data)
+		{
+			console.log(data[i].countryName+"-"+data[i].countryflag);
+        };
+        xhr.send();
+
+Name, region, sub region and population
+
+var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          for(let i in data)
+		{
+			console.log(data[i].countryName);
+			console.log(data[i].countryRegion);
+			console.log(data[i].countrySubregion);
+			console.log(data[i].countryPopulation);
+        };
+        xhr.send();
+Browser Window
+The window object is supported by all browsers. 
+It represents the browser's window.
+
+All global JavaScript objects, functions, and variables 
+automatically become members of the window object.
+
+Global variables are properties of the window object.
+
+Global functions are methods of the window object.
+
+Browser Screen
+The window.screen object can be written without the window 
+prefix.
+
+Properties:
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth
+
+Browser Document
+The document object represents your web page.
+
+If you want to access any element in an HTML page, you always
+start with accessing the document object.
