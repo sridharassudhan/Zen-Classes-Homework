@@ -1,0 +1,16 @@
+var res=[
+  "basics": {
+    "name": "Sridharassudhan",
+    "label": "RESUME",
+    "email": "swethasridharassudhan@gmail.com",
+    "phone": "+919443017486",
+    "degree": "B.tech",
+    "summary": "looking forward to work in an good organisation",
+    "location": {
+      "address": "No:16,reddiar street",
+      "postalCode": "605502",
+      "city": "Pondy",
+      "countryCode": "INDIA",
+      "region": "Pondy"
+      }
+    ]
